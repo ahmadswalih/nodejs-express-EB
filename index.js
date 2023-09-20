@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const port = 4000;
 
+//get Route
 app.get("/", (req, res) => {
   res.status(200).send("Helllo Worldddd");
 });
